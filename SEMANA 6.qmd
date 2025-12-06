@@ -1,0 +1,35 @@
+---
+title: "SEMANA 6"
+author: "CAJA CARDENAS XIOMARA"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this
+
+**SELECCIONAR LA DATA A TRABAJAR**
+
+```{r}
+data<- read_csv("C:/Users/cajac/Downloads/s04_diabetes (1).csv")
+View(s04_diabetes_1_)
+```
+
+```{r}
+data_limpia<-data(!is.na(data$insulina),)
+```
+
+```{r}
+mean(data$Glucosa)
+median(data$Glucosa)
+```
+
+```{r}
+mean(data$imc)
+var(data$imc)
+```
