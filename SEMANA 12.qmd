@@ -1,0 +1,42 @@
+---
+title: "SEMANA 12"
+author: "XIOMARA CAJA CARDENAS"
+format: html
+editor: visual
+---
+
+# DATA A TRABAJAR
+
+```{r}
+data<- read_csv("C:/Users/cajac/Downloads/s04_diabetes (1).csv")
+```
+
+## MEDIDAS DE DISPERSIÓN
+
+```{r}
+var(data$Embarazos,na.rm = TRUE)
+```
+
+## DESVIACION ESTANDAR
+
+```{r}
+sd(data$Embarazos,na.rm = TRUE)
+```
+
+## RANGO
+
+```{r}
+range(data$Embarazos,na.rm = TRUE)
+```
+
+## RANGO INTERCUARTILICO
+
+```{r}
+IQR(data$Embarazos,na.rm = TRUE)
+```
+
+## MEDIDAS DE POSICIÓN
+
+```{r}
+quantile(data$Embarazos,probs = ,na.rm = TRUE)
+```
