@@ -1,0 +1,30 @@
+---
+title: "SEMANA 10"
+author: "XIOMARA CAJA CARDENAS"
+format: html
+editor: visual
+---
+
+## SELECCIONAR DATA A TRABAJAR
+
+```{r}
+data<- read_csv("C:/Users/cajac/Downloads/s04_diabetes (1).csv")
+```
+
+## MEDIA ARITMETICA
+
+```{r}
+mean(data$Embarazos)
+```
+
+## MEDIANA
+
+```{r}
+median(data$Embarazos)
+```
+
+## MODA
+
+```{r}
+mode_episod_embarazo<-names(sort(table(data$Embarazos),decreasing = TRUE))
+```
