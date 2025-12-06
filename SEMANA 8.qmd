@@ -1,0 +1,29 @@
+---
+title: "SEMANA 8"
+author: "CAJA CARDENAS, XIOMARA"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## SELECCIONAR LA DATA A TRABAJAR
+
+```{r}
+data<- read_csv("C:/Users/cajac/Downloads/s04_diabetes (1).csv")
+```
+
+## INSTALAR PAQUETE
+
+```{r}
+install.packages("readr")
+library(readr)
+```
+
+## TABLA
+
+```{r}
+hist(data$Glucosa)
+```
