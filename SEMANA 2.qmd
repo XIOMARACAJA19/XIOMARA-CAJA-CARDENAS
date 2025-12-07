@@ -1,0 +1,33 @@
+---
+title: "SEMANA 2"
+author: "XIOMARA CAJA CARDENAS"
+format: html
+editor: visual
+---
+
+## CARPETA SEMANA 2 - COMO CREAR UN PROYECTO EN RSTUDIO
+
+### 1. En la parte superior Derecha: seleccionamos New Project
+
+![](images/clipboard-4087997031.png)
+
+### 2. Seleccionamos nuevo directorio
+
+![](images/clipboard-493134342.png)
+
+### 3. Seleccionamos nuevo proyecto arriba
+
+![](images/clipboard-2647471876.png)
+
+### 4. Ubicar el proyecto 
+
+### ![](images/clipboard-1439892479.png)
+
+### 5. Seleccionamos carpeta a guardar
+
+###  ![](images/clipboard-299458768.png)
+
+### 6. Visualizamos el proyecto 
+
+### 
+![](images/clipboard-1168463612.png)
