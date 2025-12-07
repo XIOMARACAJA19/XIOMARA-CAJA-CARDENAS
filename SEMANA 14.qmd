@@ -1,0 +1,69 @@
+---
+title: "SEMANA 14"
+author: "XIOMARA CAJA CARDENAS"
+format: html
+editor: visual
+---
+
+## DATA A TRABAJAR
+
+```{r}
+data<- read_csv("C:/Users/cajac/Downloads/s13_hemodialisis (1).csv")
+```
+
+## CARGAR DATOS
+
+```{r}
+set.seed(123)
+n <- 40
+edad <-sample(20:70, n, replace = TRUE)
+glucosa <- 70+0.9*edad+rnorm(n, 0,10)
+
+datos1 <- data.frame(edad, glucosa)
+head(datos1)
+```
+
+## AJUSTAR EL MODELO
+
+```{r}
+modelo1 <- data.frame(edad, glucosa)
+head(datos1)
+```
+
+## GRAFICO
+
+```{r}
+plot(datos1$edad,datos1$glucosa,
+     main = "glucosa vs edad")
+```
+
+## GENERAR Y CARGAR EL DATASET
+
+```{r}
+set.seed(123)
+n <- 50
+
+IMC<-rnorm(n, 27,4)
+edad<- sample(20:75,n, replace = TRUE)
+grasas<- rnorm(n, 80,20)
+
+colesterol<- 120+1.8*IMC+0.5*edad + 0.9*grasas+ rnorm(n, 0,20)
+
+datos2<-data.frame(colesterol, IMC, edad,grasas)
+head(datos2)
+```
+
+## AJUSTAR EL MODELO MULTIPLE
+
+```{r}
+modelo2<- lm(colesterol ~ IMC +edad+grasas,data = datos2)
+summary(modelo2)
+```
+
+## DIAGNOSTICO DE SUPUESTOS
+
+```{r}
+par(mfrow=c(2,2))
+plot(modelo2)
+par(mfrow=c(1,1))
+```
