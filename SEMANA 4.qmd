@@ -1,0 +1,35 @@
+---
+title: "SEMANA 4"
+author: "XIOMARA CAJA CARDENAS"
+format: html
+editor: visual
+---
+
+## CARPETA SEMANA 4 - COMO DESCARGAR UN ARCHIVO EN FORMATO 
+CVS DEL REPOSITORIO GITHUB 
+
+### 1. Accede a la guía de práctica y abre el enlace que te llevara al repositorio en 
+GITHUB  
+
+![](images/clipboard-1109769939.png)
+
+### 2. Ubícate en el repositorio  
+
+![](images/clipboard-3881861674.png)
+
+### 3. Selecciona DATA  
+
+### ![](images/clipboard-987830449.png)
+4. Selecciona el documento en CVS a descargar  
+ 
+ 
+ ![](images/clipboard-3811041304.png)
+5. Selecciona en la parte superior donde aparece la flecha de descarga y procede a descargarlo  
+
+### ![](images/clipboard-599272147.png)
+6. Abre el documento descargado 
+
+### ![](images/clipboard-2503866386.png)
+7. Visualiza el archivo 
+
+### ![](images/clipboard-3113198491.png)
